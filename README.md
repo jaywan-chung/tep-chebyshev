@@ -23,8 +23,8 @@ The source code is tested with the following 3rd party libraries along with the 
   A sqlite database file containing **TEP data**.
 - data_info.csv\
   Explain doi, material type and base material of the TEPs used in the experiment.\
-	This file is used to check which ids are used for experiments; the TEPs corresponding to the ids in the file are loaded from the db file.\
-	A more detailed information is given in *Supplementary Information* of the paper.
+  This file is used to check which ids are used for experiments; the TEPs corresponding to the ids in the file are loaded from the db file.\
+  A more detailed information is given in *Supplementary Information* of the paper.
 
 ### Python code
 - libs/pykeri/\
@@ -91,7 +91,7 @@ The source code is tested with the following 3rd party libraries along with the 
 	Make **Tables 2, 3, 4, 5** in *Supplementary Information* of the paper.\
 	This script assumes the interpolation accuracy for each node is already computed by using "accuracy_barycentric_cheb_n_nodes.py" and "accuracy_barycentric_equi_n_nodes.py".\
 	In the repository, the assumption is already fulfilled with the data in "results/accuracy" directory.
-- table_performance.py
+- table_performance.py\
 	Make **Tables 6, 7** in *Supplementary Information* of the paper.\
 	This script assumes the performance accuracy for each node is already computed by using "performance_exact.py" and "performance_barycentric_cheb_n_nodes.py".\
 	In the repository, the assumption is already fulfilled with the data in "results/performance" directory.
@@ -99,7 +99,7 @@ The source code is tested with the following 3rd party libraries along with the 
 	Make **Tables 8, 9, 10** in *Supplementary Information* of the paper.\
 	This script assumes the interpolation accuracy for each node under noise is already computed by using "accuracy_barycentric_cheb_n_nodes_with_noise.py".\
 	In the repository, the assumption is already fulfilled with the data in "results/accuracy_noise" directory.
-- table_performance_vs_noise.py
+- table_performance_vs_noise.py\
 	Make **Tables 11, 12, 13, 14, 15, 16** in *Supplementary Information* of the paper.\
 	This script assumes the performance accuracy for each node under noise is already computed by using "performance_exact.py" and "performance_barycentric_cheb_n_nodes_with_noise.py".\
 	In the repository, the assumption is already fulfilled with the data in "results/performance_noise" directory.
