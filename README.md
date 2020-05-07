@@ -85,7 +85,7 @@ The source code is tested with the following 3rd party libraries along with the 
 	In the repository, the assumption is already fulfilled with the data in "results/performance/performance_exact.csv" file and "results/performance_noise" directory.
 - plot_barycentric_cheb_n_nodes_for_paper_troubled_case.py\
 	Plot **Figure 7** of the paper.
-- plot_barycentric_cheb_n_nodes_for_paper_troubled_case_remedy.py
+- plot_barycentric_cheb_n_nodes_for_paper_troubled_case_remedy.py\
 	Plot **Figure 8** of the paper.
 - table_accuracy.py\
 	Make **Tables 2, 3, 4, 5** in *Supplementary Information* of the paper.\
