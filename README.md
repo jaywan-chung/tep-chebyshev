@@ -25,6 +25,8 @@ The source code is tested with the following 3rd party libraries along with the 
   Explain doi, material type and base material of the TEPs used in the experiment.\
   This file is used to check which ids are used for experiments; the TEPs corresponding to the ids in the file are loaded from the db file.\
   A more detailed information is given in *Supplementary Information* of the paper.
+- plot_bte_bi2te3_curves.xlsx\
+  Give the Boltzmann transport simulation result and experimental result to draw Figure 7.
 
 ### Python code
 - libs/pykeri/\
