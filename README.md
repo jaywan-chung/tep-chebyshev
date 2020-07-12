@@ -83,10 +83,11 @@ The source code is tested with the following 3rd party libraries along with the 
 	Plot **Figure 6** of the paper.\
 	This script assumes the performance accuracy for each node under noise is already computed by using "performance_exact.py" and "performance_barycentric_cheb_n_nodes_with_noise.py".\
 	In the repository, the assumption is already fulfilled with the data in "results/performance/performance_exact.csv" file and "results/performance_noise" directory.
-- plot_barycentric_cheb_n_nodes_for_paper_troubled_case.py\
+- plot_bte_bi2te3_curves.py\
 	Plot **Figure 7** of the paper.
-- plot_barycentric_cheb_n_nodes_for_paper_troubled_case_remedy.py\
-	Plot **Figure 8** of the paper.
+	Requires the "plot_bte_bi2te3_curves.xlsx" file.
+- plot_detect_anomaly.py\
+	Plot **Figure 8(a)-(c)** of the paper.
 - table_accuracy.py\
 	Make **Tables 2, 3, 4, 5** in *Supplementary Information* of the paper.\
 	This script assumes the interpolation accuracy for each node is already computed by using "accuracy_barycentric_cheb_n_nodes.py" and "accuracy_barycentric_equi_n_nodes.py".\
