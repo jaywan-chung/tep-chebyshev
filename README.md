@@ -1,5 +1,6 @@
 # tep-chebyshev
-Provide source code for the paper *"Dimension Reduction of thermoelectric properties using barycentric polynomial interpolation at Chebyshev nodes"* by Jaywan Chung, Byungki Ryu and SuDong Park.
+Provide source code for the paper *"Dimension reduction of thermoelectric properties using barycentric polynomial interpolation
+at Chebyshev nodes"* by Jaywan Chung, Byungki Ryu and SuDong Park, Scientific Reports **10**, 13456 (2020). https://doi.org/10.1038/s41598-020-70320-7.
 
 ## Python package requirements
 The source code is tested with the following 3rd party libraries along with the Python programming language:
